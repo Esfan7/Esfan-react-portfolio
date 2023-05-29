@@ -242,11 +242,13 @@ ul#horizontal-list a {
 {
   font-size: medium;
   text-align: center;
+ 
 }
 
 #horizontal-list > li>a
 {
   font-size: 12px;
+  text-decoration: none;
 }
 
 .row{
@@ -291,5 +293,21 @@ form{
 .contact-page{
   background-color: beige;
   height: 100vh;
+}
+.info{
+ 
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+ display:inline-flex;
+flex-direction: column;
+ color: white;
+ background-color: rgb(68, 88, 120);
+ border-radius: 10%;
+ border-style: double;
+
+
+position: relative;
+ 
 }
 

@@ -33,14 +33,10 @@ export default function Portfolio(){
             </div>
            <div id="topdiv" className="right">
                 <div className="portfolio">
-                    <div className="row">
-                        <div className="border">
-                        <a href="https://github.com/Esfan7/Code-Quiz" ><img src={img1} /></a>
-                        <div className="banner">Code-Quiz</div>
-                    </div>
-                    </div>
+                   
                 </div>
                 <div className="grid">
+                    <Project url="https://github.com/Esfan7/Code-Quiz" img ={img1} title="Code-Quiz"/>
                     <Project url="https://github.com/Esfan7/Password-Generator" img={img2} title="Password-Generator" />
                     <Project url="https://github.com/Esfan7/Planner" img={img3} title="Planner" />
                     <Project url="https://github.com/Esfan7/Note-taker" img={img4} title="Note-taker" />

@@ -1,4 +1,5 @@
 
+import Footer from "./Footer"
 import Nav from "./Nav";
 import profileImg from "../assets/placeholder-image-person-jpg.jpg"
 export default function About(){
@@ -13,5 +14,7 @@ export default function About(){
             lkajdflksjdflks
         </div>
         </div>
+        <Footer/>
     </div>
+   
 }

@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Nav from "./Nav";
 export default function Contact(){
 
@@ -23,6 +24,7 @@ export default function Contact(){
             </fieldset>
         </form>
         </div>
+        <Footer/>
     </main>
     </div>
 
