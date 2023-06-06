@@ -1,8 +1,8 @@
 import Footer from "./Footer"
 import Nav from "./Nav";
-export default function Contact(){
+export default function Contact({setScreen}){
 
-    return <div className="contact-page"><Nav title="Contact Us" />
+    return <div className="contact-page"><Nav title="Contact Us"  setScreen={setScreen} />
     <main>
         <div className="row">
         <form>

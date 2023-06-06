@@ -8,9 +8,9 @@ import img4 from "../assets/istockphoto-1289411982-612x612.jpg"
 import img5 from "../assets/programmingevolution.jpg"
 
 
-export default function Portfolio(){
+export default function Portfolio({setScreen}){
 
-    return <><Nav title="Portfolio" />
+    return <><Nav title="Portfolio"  setScreen={setScreen} />
     <section className="hero-banner">
         <div>
             <h2>Esfandiar Behbehani</h2>

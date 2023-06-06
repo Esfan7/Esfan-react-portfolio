@@ -14,33 +14,11 @@ import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Portfolio/>,
-  },
-  {
-    path: "/about",
-    element: <About/>,
-  },
-  {
-    path: "/contact",
-    element: <Contact/>,
-  },
-  {
-    path: "/portfolio",
-    element: <Portfolio/>,
-  },
-  {
-    path: "/resume",
-    element: <Resume/>,
-  },
-]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+     <App/>
   </React.StrictMode>
 );
 

@@ -1,9 +1,9 @@
 import resumeFile from "../assets/EsfandiarBehbehaniResume.pdf"
 import Nav from "./Nav"
 import Footer from "./Footer"
-export default function Resume(){
+export default function Resume({setScreen}){
 
-    return <div className="resume-page">  <Nav title="Resume" />
+    return <div className="resume-page">  <Nav title="Resume"  setScreen={setScreen} />
     <div className="row">
 <div>
 <h1>Esfandiar Behbehani</h1>
