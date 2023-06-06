@@ -11,7 +11,7 @@ export default function About({setScreen}){
                 <img src={profileImg}/>
             </div>
         <div className="right">
-            lkajdflksjdflks
+            
         </div>
         </div>
         <Footer/>
