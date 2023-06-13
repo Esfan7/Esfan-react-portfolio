@@ -41,7 +41,7 @@ export default function Portfolio({setScreen}){
                     <Project url="https://github.com/Esfan7/Planner" img={img3} title="Planner" />
                     <Project url="https://github.com/Esfan7/Note-taker" img={img4} title="Note-taker" />
                     <Project url="https://github.com/Esfan7/Can-you-README" img={img5} title="Can-you-README" />
-                    <Project url="https://github.com/Esfan7/What-the-Weather" img={img5} title="What-the-Weather" />
+                    <Project url="https://github.com/Esfan7/DevBook" img={img5} title="DevBook" />
            
                   
                  
